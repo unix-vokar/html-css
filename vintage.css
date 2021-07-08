@@ -1,3 +1,4 @@
+/*Structure styling*/
 .active {
   background-color: #478061;
 }
@@ -37,7 +38,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
   background-color: #111;
 }
@@ -60,6 +61,8 @@ width:333px;
   page-break-after: always;
 }
 
+/*Type-Setting styles*/
+
 h4 {
     margin:0px;
 }
@@ -76,7 +79,7 @@ font-family: Ubuntu, Helvetica, sans-serif;
 p{
   font-family: Ubuntu, Helvetica, sans-serif; font-size: 0.875em;
 }
-
+/*Footer style.*/
 footer {
   
   margin: auto;
@@ -98,10 +101,8 @@ footer {
   float: left;
   width: 100%;
   padding: 10px;
-   /* Should be removed. Only for demonstration */
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
